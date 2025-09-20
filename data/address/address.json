@@ -1,0 +1,242 @@
+[
+  {
+    "id_direccion":1,
+    "id_cliente":14.0,
+    "descripcion":"Avenida de Ibán Viña 13\nVizcaya, 54596",
+    "codigo_ciudad":4106.0
+  },
+  {
+    "id_direccion":2,
+    "id_cliente":8.0,
+    "descripcion":"Pasadizo de Catalina Folch 928\nSevilla, 34613",
+    "codigo_ciudad":9096.0
+  },
+  {
+    "id_direccion":3,
+    "id_cliente":4.0,
+    "descripcion":"Urbanización Patricia Andreu 9 Puerta 8 \nSoria, 50164",
+    "codigo_ciudad":null
+  },
+  {
+    "id_direccion":4,
+    "id_cliente":1.0,
+    "descripcion":"Vial de Julián Hernando 1 Apt. 14 \nAsturias, 93592",
+    "codigo_ciudad":2722.0
+  },
+  {
+    "id_direccion":5,
+    "id_cliente":28.0,
+    "descripcion":"Pasadizo de Nilda Reguera 871 Puerta 7 \nMadrid, 25086",
+    "codigo_ciudad":7475.0
+  },
+  {
+    "id_direccion":6,
+    "id_cliente":8.0,
+    "descripcion":"Calle de Gaspar Mateos 3 Piso 8 \nCáceres, 46561",
+    "codigo_ciudad":null
+  },
+  {
+    "id_direccion":7,
+    "id_cliente":2.0,
+    "descripcion":"Cañada Merche Gracia 53\nÁvila, 37567",
+    "codigo_ciudad":9030.0
+  },
+  {
+    "id_direccion":8,
+    "id_cliente":10.0,
+    "descripcion":"Callejón de Eliseo Cuevas 42 Puerta 6 \nAlbacete, 49470",
+    "codigo_ciudad":5990.0
+  },
+  {
+    "id_direccion":9,
+    "id_cliente":20.0,
+    "descripcion":"Vial de Olimpia Valls 21\nLa Coruña, 69889",
+    "codigo_ciudad":6920.0
+  },
+  {
+    "id_direccion":10,
+    "id_cliente":16.0,
+    "descripcion":"Rambla Rodolfo Valentín 25\nHuelva, 03499",
+    "codigo_ciudad":4567.0
+  },
+  {
+    "id_direccion":11,
+    "id_cliente":13.0,
+    "descripcion":"Vial de Ofelia Vázquez 44 Puerta 1 \nPalencia, 63186",
+    "codigo_ciudad":null
+  },
+  {
+    "id_direccion":12,
+    "id_cliente":null,
+    "descripcion":"Vial Américo Iñiguez 94 Apt. 95 \nCáceres, 94420",
+    "codigo_ciudad":4321.0
+  },
+  {
+    "id_direccion":13,
+    "id_cliente":7.0,
+    "descripcion":"Glorieta de Fulgencio Sanchez 72\nNavarra, 57310",
+    "codigo_ciudad":9945.0
+  },
+  {
+    "id_direccion":14,
+    "id_cliente":2.0,
+    "descripcion":"Vial Héctor Jaén 4 Puerta 8 \nCantabria, 83421",
+    "codigo_ciudad":3168.0
+  },
+  {
+    "id_direccion":15,
+    "id_cliente":10.0,
+    "descripcion":"Paseo Desiderio Tovar 490\nNavarra, 44387",
+    "codigo_ciudad":5509.0
+  },
+  {
+    "id_direccion":16,
+    "id_cliente":30.0,
+    "descripcion":"Alameda de Elvira Pol 41\nCuenca, 57626",
+    "codigo_ciudad":6100.0
+  },
+  {
+    "id_direccion":17,
+    "id_cliente":26.0,
+    "descripcion":"Urbanización Jose Luis Almansa 99\nCádiz, 33265",
+    "codigo_ciudad":null
+  },
+  {
+    "id_direccion":18,
+    "id_cliente":11.0,
+    "descripcion":"Avenida Pedro Tamayo 9\nTeruel, 55498",
+    "codigo_ciudad":1282.0
+  },
+  {
+    "id_direccion":19,
+    "id_cliente":3.0,
+    "descripcion":"Glorieta Guadalupe Peinado 23 Apt. 18 \nValencia, 24136",
+    "codigo_ciudad":4927.0
+  },
+  {
+    "id_direccion":20,
+    "id_cliente":10.0,
+    "descripcion":"Pasadizo de Ciríaco Escolano 14 Puerta 0 \nOurense, 15165",
+    "codigo_ciudad":9207.0
+  },
+  {
+    "id_direccion":21,
+    "id_cliente":16.0,
+    "descripcion":"Acceso Rubén Sanabria 30 Puerta 4 \nNavarra, 40442",
+    "codigo_ciudad":9046.0
+  },
+  {
+    "id_direccion":22,
+    "id_cliente":23.0,
+    "descripcion":"Pasadizo de Mariana Carvajal 46\nBurgos, 20165",
+    "codigo_ciudad":7899.0
+  },
+  {
+    "id_direccion":23,
+    "id_cliente":19.0,
+    "descripcion":"Avenida Victorino Carreras 34 Apt. 69 \nMálaga, 85532",
+    "codigo_ciudad":8856.0
+  },
+  {
+    "id_direccion":24,
+    "id_cliente":19.0,
+    "descripcion":"Plaza de Merche Cobos 48\nAlmería, 83489",
+    "codigo_ciudad":7788.0
+  },
+  {
+    "id_direccion":25,
+    "id_cliente":24.0,
+    "descripcion":"Acceso Aurelia Duarte 96 Puerta 9 \nMadrid, 97187",
+    "codigo_ciudad":7625.0
+  },
+  {
+    "id_direccion":26,
+    "id_cliente":18.0,
+    "descripcion":"Callejón Onofre Llamas 2 Piso 1 \nLas Palmas, 69413",
+    "codigo_ciudad":9277.0
+  },
+  {
+    "id_direccion":27,
+    "id_cliente":5.0,
+    "descripcion":"Vial Dafne Vallejo 4 Puerta 2 \nTeruel, 78678",
+    "codigo_ciudad":2390.0
+  },
+  {
+    "id_direccion":28,
+    "id_cliente":6.0,
+    "descripcion":"Cuesta Paloma Carro 87\nSalamanca, 07004",
+    "codigo_ciudad":6930.0
+  },
+  {
+    "id_direccion":29,
+    "id_cliente":15.0,
+    "descripcion":"Alameda de Maxi Torrecilla 9\nPalencia, 08342",
+    "codigo_ciudad":9951.0
+  },
+  {
+    "id_direccion":30,
+    "id_cliente":8.0,
+    "descripcion":"Pasadizo Ildefonso Sanabria 9\nSanta Cruz de Tenerife, 79587",
+    "codigo_ciudad":5211.0
+  },
+  {
+    "id_direccion":31,
+    "id_cliente":22.0,
+    "descripcion":"Calle Jessica Noriega 27\nHuesca, 33439",
+    "codigo_ciudad":2237.0
+  },
+  {
+    "id_direccion":32,
+    "id_cliente":30.0,
+    "descripcion":"Alameda de Nayara Salcedo 70\nCiudad, 80272",
+    "codigo_ciudad":3690.0
+  },
+  {
+    "id_direccion":33,
+    "id_cliente":28.0,
+    "descripcion":"Alameda de Leocadio Milla 378\nBadajoz, 57620",
+    "codigo_ciudad":9667.0
+  },
+  {
+    "id_direccion":34,
+    "id_cliente":26.0,
+    "descripcion":"Via de Rita Padilla 64 Apt. 18 \nCórdoba, 79793",
+    "codigo_ciudad":3833.0
+  },
+  {
+    "id_direccion":35,
+    "id_cliente":10.0,
+    "descripcion":"Calle Artemio Colomer 72 Apt. 37 \nÁvila, 94743",
+    "codigo_ciudad":7637.0
+  },
+  {
+    "id_direccion":36,
+    "id_cliente":27.0,
+    "descripcion":"Alameda de José Luis Aragón 57 Puerta 7 \nTeruel, 24990",
+    "codigo_ciudad":3554.0
+  },
+  {
+    "id_direccion":37,
+    "id_cliente":15.0,
+    "descripcion":"Ronda de Clara Márquez 46 Piso 3 \nBaleares, 06017",
+    "codigo_ciudad":6442.0
+  },
+  {
+    "id_direccion":38,
+    "id_cliente":21.0,
+    "descripcion":"Glorieta Sabina Batlle 5\nLa Coruña, 79596",
+    "codigo_ciudad":1085.0
+  },
+  {
+    "id_direccion":39,
+    "id_cliente":28.0,
+    "descripcion":"Acceso de Alondra Ribera 20 Puerta 9 \nCastellón, 84681",
+    "codigo_ciudad":6684.0
+  },
+  {
+    "id_direccion":40,
+    "id_cliente":26.0,
+    "descripcion":"Acceso de Maristela Segura 17\nValencia, 22899",
+    "codigo_ciudad":4325.0
+  }
+]

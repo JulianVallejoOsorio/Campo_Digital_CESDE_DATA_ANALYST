@@ -1,0 +1,21 @@
+﻿id_producto;producto;descripcion;categoria;unidad;precio;is_active
+1;Et;Occaecati ad laborum suscipit nostrum itaque.;hogar;lt;159,08;VERDADERO
+2;Placeat;Quasi nulla ipsa.;Hogar;lt;343,88;VERDADERO
+3;Placeat;Animi culpa velit.;hogar;unidad;;FALSO
+4;Architecto;Vero dolorum culpa culpa.;electrodomesticos;lt;448,68;VERDADERO
+5;Facere;Odio quidem dolorem illum ea.;Electrónica;caja;265,66;VERDADERO
+6;Amet;Voluptatibus veniam reiciendis ab possimus.;Hogar;lt;421,18;FALSO
+7;Id;Molestias dolores dolore esse nostrum.;Hogar;caja;;VERDADERO
+8;Eum;Eum nostrum at facere nulla.;Hogar;lt;384,45;VERDADERO
+9;Cupiditate;Soluta inventore quae.;hogar;lt;130,72;VERDADERO
+10;Aut;Eligendi tempora fugit.;hogar;kg;123,43;FALSO
+11;Soluta;Inventore dolorem recusandae reiciendis porro quod.;Hogar;caja;167,81;VERDADERO
+12;Ducimus;Dolorem dolor quas.;electrodomesticos;caja;83,01;FALSO
+13;Vero;Nisi cumque culpa maiores consequatur.;electrodomesticos;kg;349,87;FALSO
+14;Laboriosam;Dignissimos commodi dicta enim temporibus eos.;Hogar;caja;;VERDADERO
+15;Et;Earum facere reiciendis.;Electrónica;kg;382,8;VERDADERO
+16;Ullam;Doloribus recusandae molestias esse labore dolorum.;Electrónica;lt;53,4;VERDADERO
+17;Natus;Perspiciatis cupiditate sint doloremque.;Electrónica;lt;214,94;FALSO
+18;Aspernatur;Quisquam exercitationem a facilis.;Hogar;caja;494,3;VERDADERO
+19;Sed;Consequuntur consequatur provident accusamus quis.;electrodomesticos;unidad;273,43;FALSO
+20;Nisi;Distinctio nam veritatis delectus doloremque.;Electro;unidad;64,95;VERDADERO
