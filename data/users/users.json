@@ -1,0 +1,272 @@
+[
+  {
+    "id_cliente":1,
+    "nombre_completo":"Ágata Caro",
+    "email":"dafnejaume@diez-lerma.com",
+    "telefono":"+34948 00 00 42",
+    "username":"gabrielagullo",
+    "numero_documento":11403251,
+    "fecha_nacimiento":"1988-09-13"
+  },
+  {
+    "id_cliente":2,
+    "nombre_completo":"Amaya Valle Ferrándiz",
+    "email":"aitana65@millan.es",
+    "telefono":"+34721 00 71 51",
+    "username":"juana25",
+    "numero_documento":31057882,
+    "fecha_nacimiento":"1965-09-09"
+  },
+  {
+    "id_cliente":3,
+    "nombre_completo":"Noemí de Gomez",
+    "email":"panfilogalvan@gmail.com",
+    "telefono":"+34 736 020 389",
+    "username":"alcaldemaria-dolores",
+    "numero_documento":52784266,
+    "fecha_nacimiento":"1985-07-14"
+  },
+  {
+    "id_cliente":4,
+    "nombre_completo":"Bonifacio del Lara",
+    "email":"lupe46@sanmartin.com",
+    "telefono":"+34739 12 91 97",
+    "username":"adrian91",
+    "numero_documento":44888663,
+    "fecha_nacimiento":"2007-05-24"
+  },
+  {
+    "id_cliente":5,
+    "nombre_completo":"Soledad Marcos Boada",
+    "email":"inigo03@gmail.com",
+    "telefono":"+34 672 564 044",
+    "username":"mesaluis",
+    "numero_documento":55090124,
+    "fecha_nacimiento":"1947-06-11"
+  },
+  {
+    "id_cliente":6,
+    "nombre_completo":"Lupe Rincón-Flor",
+    "email":null,
+    "telefono":"+34746 899 690",
+    "username":"molinssonia",
+    "numero_documento":46485789,
+    "fecha_nacimiento":"1982-04-04"
+  },
+  {
+    "id_cliente":7,
+    "nombre_completo":"Gertrudis Robles-Galvez",
+    "email":"roviraflorinda@hotmail.com",
+    "telefono":"123",
+    "username":"castelladalberto",
+    "numero_documento":40031525,
+    "fecha_nacimiento":"1976-01-26"
+  },
+  {
+    "id_cliente":8,
+    "nombre_completo":"Aureliano Atilio Sabater Múñiz",
+    "email":"tcaparros@solano-batlle.es",
+    "telefono":"+34 829 49 72 83",
+    "username":"juan-luis55",
+    "numero_documento":80854076,
+    "fecha_nacimiento":"1996-09-07"
+  },
+  {
+    "id_cliente":9,
+    "nombre_completo":"Bernardino Priego Alemán",
+    "email":"rozasbernardino@hotmail.com",
+    "telefono":"123",
+    "username":"dmugica",
+    "numero_documento":39250691,
+    "fecha_nacimiento":"1972-11-25"
+  },
+  {
+    "id_cliente":10,
+    "nombre_completo":"Liliana Azucena Llobet Juan",
+    "email":"tonialcalde@saez.com",
+    "telefono":"123",
+    "username":"pelayonoemi",
+    "numero_documento":46110798,
+    "fecha_nacimiento":"1973-04-04"
+  },
+  {
+    "id_cliente":11,
+    "nombre_completo":"María Cristina Simó Lerma",
+    "email":"ucastejon@hotmail.com",
+    "telefono":"+34747 055 890",
+    "username":"lloretzacarias",
+    "numero_documento":31831414,
+    "fecha_nacimiento":"1996-03-02"
+  },
+  {
+    "id_cliente":12,
+    "nombre_completo":"Fátima Cuadrado Hernando",
+    "email":"dvara@gaya.es",
+    "telefono":"+34 741314522",
+    "username":"scanizares",
+    "numero_documento":78834717,
+    "fecha_nacimiento":"1978-06-24"
+  },
+  {
+    "id_cliente":13,
+    "nombre_completo":"José Ángel Gallo Carrasco",
+    "email":"eleuterio75@gmail.com",
+    "telefono":"+34 722 692 874",
+    "username":"grasanibal",
+    "numero_documento":64501791,
+    "fecha_nacimiento":"2001-06-27"
+  },
+  {
+    "id_cliente":14,
+    "nombre_completo":"Ramón Tomás Burgos",
+    "email":"loida29@yahoo.com",
+    "telefono":"+34 708 43 73 43",
+    "username":"joaquin03",
+    "numero_documento":15003642,
+    "fecha_nacimiento":"1996-01-31"
+  },
+  {
+    "id_cliente":15,
+    "nombre_completo":"Alejandro Espejo-Pavón",
+    "email":"leticia43@ribera-tomas.net",
+    "telefono":"123",
+    "username":"isidromayoral",
+    "numero_documento":48008897,
+    "fecha_nacimiento":"1958-04-24"
+  },
+  {
+    "id_cliente":16,
+    "nombre_completo":"Anselmo Flores Osorio",
+    "email":"dulce38@vives-navas.es",
+    "telefono":"123",
+    "username":"benignatorres",
+    "numero_documento":76752735,
+    "fecha_nacimiento":"1955-12-20"
+  },
+  {
+    "id_cliente":17,
+    "nombre_completo":"Augusto Viana Valderrama",
+    "email":"dario84@yahoo.com",
+    "telefono":"+34972 72 54 56",
+    "username":"caparrostrini",
+    "numero_documento":76816374,
+    "fecha_nacimiento":"1995-04-11"
+  },
+  {
+    "id_cliente":18,
+    "nombre_completo":"Javiera Marquez Garay",
+    "email":"aureamarti@yahoo.com",
+    "telefono":"+34 732 47 85 72",
+    "username":"zbaena",
+    "numero_documento":99347829,
+    "fecha_nacimiento":"1948-04-06"
+  },
+  {
+    "id_cliente":19,
+    "nombre_completo":"Enrique Expósito González",
+    "email":"tejerajacinto@hotmail.com",
+    "telefono":"+34865 196 440",
+    "username":"eusebio87",
+    "numero_documento":45920630,
+    "fecha_nacimiento":"1988-12-10"
+  },
+  {
+    "id_cliente":20,
+    "nombre_completo":"Perla Tolosa Fiol",
+    "email":"torrecillaviviana@ojeda-solis.org",
+    "telefono":"+34732419444",
+    "username":"paola91",
+    "numero_documento":26957830,
+    "fecha_nacimiento":"2000-07-30"
+  },
+  {
+    "id_cliente":21,
+    "nombre_completo":"Román del Burgos",
+    "email":"arnauciro@hotmail.com",
+    "telefono":"+34 716 59 15 10",
+    "username":"pacificavinas",
+    "numero_documento":74138846,
+    "fecha_nacimiento":"1963-12-22"
+  },
+  {
+    "id_cliente":22,
+    "nombre_completo":"Emigdio del Bustamante",
+    "email":"reina21@pedrosa.net",
+    "telefono":"+34729602683",
+    "username":"llobetcelso",
+    "numero_documento":23641860,
+    "fecha_nacimiento":"1968-05-04"
+  },
+  {
+    "id_cliente":23,
+    "nombre_completo":"Juan Carlos Lumbreras Cabañas",
+    "email":"flavioandres@cornejo.es",
+    "telefono":"123",
+    "username":"cruz51",
+    "numero_documento":70337239,
+    "fecha_nacimiento":null
+  },
+  {
+    "id_cliente":24,
+    "nombre_completo":"Noelia Acedo Viña",
+    "email":"mayte22@gmail.com",
+    "telefono":"+34739 74 52 97",
+    "username":"pbelda",
+    "numero_documento":50643389,
+    "fecha_nacimiento":"1988-06-13"
+  },
+  {
+    "id_cliente":25,
+    "nombre_completo":"Francisca Estevez Azcona",
+    "email":"upascual@yahoo.com",
+    "telefono":"+34 899 471 671",
+    "username":"larreabalduino",
+    "numero_documento":10409451,
+    "fecha_nacimiento":"1945-11-18"
+  },
+  {
+    "id_cliente":26,
+    "nombre_completo":"Juan Manuel de Rivera",
+    "email":"jennycanas@torrecilla.es",
+    "telefono":"123",
+    "username":"cabanillasvictorino",
+    "numero_documento":80589346,
+    "fecha_nacimiento":"1967-03-04"
+  },
+  {
+    "id_cliente":27,
+    "nombre_completo":"Lola Pablo",
+    "email":"saenzelba@yahoo.com",
+    "telefono":"+34944 92 38 20",
+    "username":"hgomez",
+    "numero_documento":59753238,
+    "fecha_nacimiento":"1955-06-23"
+  },
+  {
+    "id_cliente":28,
+    "nombre_completo":"Amarilis Zapata Rodrigo",
+    "email":"caballerohaydee@aviles.es",
+    "telefono":"+34711 113 575",
+    "username":"dieztrinidad",
+    "numero_documento":95552860,
+    "fecha_nacimiento":"1991-03-10"
+  },
+  {
+    "id_cliente":29,
+    "nombre_completo":"Federico Andreu Martorell",
+    "email":"anastasiavalero@millan-batlle.com",
+    "telefono":"123",
+    "username":"azahar95",
+    "numero_documento":20002034,
+    "fecha_nacimiento":"1986-01-22"
+  },
+  {
+    "id_cliente":30,
+    "nombre_completo":"Adelardo Gimeno Abascal",
+    "email":"tamayoestefania@coello-maestre.org",
+    "telefono":"+34603 38 33 82",
+    "username":"almagronico",
+    "numero_documento":92499272,
+    "fecha_nacimiento":"1988-10-19"
+  }
+]
