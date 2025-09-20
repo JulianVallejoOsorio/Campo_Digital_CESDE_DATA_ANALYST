@@ -1,0 +1,182 @@
+[
+  {
+    "id_producto":1,
+    "producto":"Et",
+    "descripcion":"Occaecati ad laborum suscipit nostrum itaque.",
+    "categoria":"hogar",
+    "unidad":"lt",
+    "precio":"159,08",
+    "is_active":"VERDADERO"
+  },
+  {
+    "id_producto":2,
+    "producto":"Placeat",
+    "descripcion":"Quasi nulla ipsa.",
+    "categoria":"Hogar",
+    "unidad":"lt",
+    "precio":"343,88",
+    "is_active":"VERDADERO"
+  },
+  {
+    "id_producto":3,
+    "producto":"Placeat",
+    "descripcion":"Animi culpa velit.",
+    "categoria":"hogar",
+    "unidad":"unidad",
+    "precio":null,
+    "is_active":"FALSO"
+  },
+  {
+    "id_producto":4,
+    "producto":"Architecto",
+    "descripcion":"Vero dolorum culpa culpa.",
+    "categoria":"electrodomesticos",
+    "unidad":"lt",
+    "precio":"448,68",
+    "is_active":"VERDADERO"
+  },
+  {
+    "id_producto":5,
+    "producto":"Facere",
+    "descripcion":"Odio quidem dolorem illum ea.",
+    "categoria":"Electrónica",
+    "unidad":"caja",
+    "precio":"265,66",
+    "is_active":"VERDADERO"
+  },
+  {
+    "id_producto":6,
+    "producto":"Amet",
+    "descripcion":"Voluptatibus veniam reiciendis ab possimus.",
+    "categoria":"Hogar",
+    "unidad":"lt",
+    "precio":"421,18",
+    "is_active":"FALSO"
+  },
+  {
+    "id_producto":7,
+    "producto":"Id",
+    "descripcion":"Molestias dolores dolore esse nostrum.",
+    "categoria":"Hogar",
+    "unidad":"caja",
+    "precio":null,
+    "is_active":"VERDADERO"
+  },
+  {
+    "id_producto":8,
+    "producto":"Eum",
+    "descripcion":"Eum nostrum at facere nulla.",
+    "categoria":"Hogar",
+    "unidad":"lt",
+    "precio":"384,45",
+    "is_active":"VERDADERO"
+  },
+  {
+    "id_producto":9,
+    "producto":"Cupiditate",
+    "descripcion":"Soluta inventore quae.",
+    "categoria":"hogar",
+    "unidad":"lt",
+    "precio":"130,72",
+    "is_active":"VERDADERO"
+  },
+  {
+    "id_producto":10,
+    "producto":"Aut",
+    "descripcion":"Eligendi tempora fugit.",
+    "categoria":"hogar",
+    "unidad":"kg",
+    "precio":"123,43",
+    "is_active":"FALSO"
+  },
+  {
+    "id_producto":11,
+    "producto":"Soluta",
+    "descripcion":"Inventore dolorem recusandae reiciendis porro quod.",
+    "categoria":"Hogar",
+    "unidad":"caja",
+    "precio":"167,81",
+    "is_active":"VERDADERO"
+  },
+  {
+    "id_producto":12,
+    "producto":"Ducimus",
+    "descripcion":"Dolorem dolor quas.",
+    "categoria":"electrodomesticos",
+    "unidad":"caja",
+    "precio":"83,01",
+    "is_active":"FALSO"
+  },
+  {
+    "id_producto":13,
+    "producto":"Vero",
+    "descripcion":"Nisi cumque culpa maiores consequatur.",
+    "categoria":"electrodomesticos",
+    "unidad":"kg",
+    "precio":"349,87",
+    "is_active":"FALSO"
+  },
+  {
+    "id_producto":14,
+    "producto":"Laboriosam",
+    "descripcion":"Dignissimos commodi dicta enim temporibus eos.",
+    "categoria":"Hogar",
+    "unidad":"caja",
+    "precio":null,
+    "is_active":"VERDADERO"
+  },
+  {
+    "id_producto":15,
+    "producto":"Et",
+    "descripcion":"Earum facere reiciendis.",
+    "categoria":"Electrónica",
+    "unidad":"kg",
+    "precio":"382,8",
+    "is_active":"VERDADERO"
+  },
+  {
+    "id_producto":16,
+    "producto":"Ullam",
+    "descripcion":"Doloribus recusandae molestias esse labore dolorum.",
+    "categoria":"Electrónica",
+    "unidad":"lt",
+    "precio":"53,4",
+    "is_active":"VERDADERO"
+  },
+  {
+    "id_producto":17,
+    "producto":"Natus",
+    "descripcion":"Perspiciatis cupiditate sint doloremque.",
+    "categoria":"Electrónica",
+    "unidad":"lt",
+    "precio":"214,94",
+    "is_active":"FALSO"
+  },
+  {
+    "id_producto":18,
+    "producto":"Aspernatur",
+    "descripcion":"Quisquam exercitationem a facilis.",
+    "categoria":"Hogar",
+    "unidad":"caja",
+    "precio":"494,3",
+    "is_active":"VERDADERO"
+  },
+  {
+    "id_producto":19,
+    "producto":"Sed",
+    "descripcion":"Consequuntur consequatur provident accusamus quis.",
+    "categoria":"electrodomesticos",
+    "unidad":"unidad",
+    "precio":"273,43",
+    "is_active":"FALSO"
+  },
+  {
+    "id_producto":20,
+    "producto":"Nisi",
+    "descripcion":"Distinctio nam veritatis delectus doloremque.",
+    "categoria":"Electro",
+    "unidad":"unidad",
+    "precio":"64,95",
+    "is_active":"VERDADERO"
+  }
+]
