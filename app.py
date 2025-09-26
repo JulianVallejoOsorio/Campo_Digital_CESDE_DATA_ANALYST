@@ -1,10 +1,15 @@
+
 from src.data_load import (load_csv, load_json)
+from src.frequency import (bestselligproduct, bestbuyer)
 
 def main():
     option = int(input("""Seleccione que tipo de archivos se van a cargar
     1. Archivos CSV
     2. Archivos JSON
 Opción: """))
+    print()
+    print("="*40)
+    print()
     match option:
         case 1:
             try:
@@ -20,11 +25,6 @@ Opción: """))
                 print(e)
         case _:
             print("Opción incorrecta, por favor seleccione una de las opciónes disponibles")
-            
-    print()
-    print("="*40)
-    print()
-
 
 def main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users):
     while True:
@@ -50,15 +50,12 @@ def main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users):
                 match frequency_option:
                     case 1:
                         print()
-                        # most_sold_product(df_salesdetails, df_products)
-                        print("Producto mas vendido es x")
+                        bestselligproduct(df_salesdetails,df_products)
                         print()
-                        pass
-                        
+
                     case 2:
                         print()
-                        # most_frequent_user(df_sales)
-                        print("Genaro ha comprador mucho")
+                        bestbuyer(df_users, df_sales)
                         print()
                         pass
 

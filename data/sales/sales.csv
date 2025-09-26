@@ -1,4 +1,4 @@
-﻿id;fecha;cliente_id;direccion_id;total
+﻿id;fecha;id_cliente;direccion_id;total
 1;45860;25;31;849,13
 2;45427;15;17;296,7
 3;45561;11;12;434,89
