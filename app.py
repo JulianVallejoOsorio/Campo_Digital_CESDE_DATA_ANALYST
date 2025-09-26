@@ -1,3 +1,5 @@
+from src.data_load import (load_csv, load_json)
+
 def main():
     option = int(input("""Seleccione que tipo de archivos se van a cargar
     1. Archivos CSV
