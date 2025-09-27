@@ -74,7 +74,7 @@ def main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users):
                 match aggregation_option:
                     case 1:
                         print()
-                        total_sales_per_user(df_sales, df_salesdetails)
+                        total_sales_per_user(df_sales, df_users)
                         print()
                         pass
                     case 2:
@@ -99,7 +99,6 @@ def main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users):
                     case 2:
                         print()
                         sales_to_bogota(df_sales, df_address)
-                        print("cualesquier 5")
                         print()
                         pass
             case 4:

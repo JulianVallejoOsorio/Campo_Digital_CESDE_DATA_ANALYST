@@ -16,11 +16,18 @@ def users_with_more_than_five_purchases(df_sales, df_users):
 
 
 def sales_to_bogota(df_sales, df_address):
-    df_merged = df_sales.merge(df_address, left_on="direccion_id", right_on="id_direccion", how="left")
 
-    df_bogota = df_merged[df_merged["codigo_ciudad"] == 40]
+    df_merged = df_sales.merge(
+        df_address[["id_direccion", "codigo_ciudad"]],
+        left_on="direccion_id", right_on="id_direccion", how="left"
+    )
 
-    print("Ventas enviadas a Bogotá: ")
+    df_bogota = df_merged[df_merged["codigo_ciudad"] == 1]
+
+    print("Ventas enviadas a Bogotá:")
     print(df_bogota[["id", "id_cliente", "total", "codigo_ciudad"]].head(10))
     print(f"Total ventas a Bogotá: {len(df_bogota)}")
+
     return df_bogota
+
+
