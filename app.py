@@ -1,6 +1,8 @@
 
 from src.data_load import (load_csv, load_json)
 from src.frequency import (bestselligproduct, bestbuyer)
+from src.aggregation import (total_sales_per_user, total_products_by_address)
+from src.clean_dataframes import clean_all
 
 def main():
     option = int(input("""Seleccione que tipo de archivos se van a cargar
@@ -14,12 +16,14 @@ Opción: """))
         case 1:
             try:
                 df_address, df_products, df_sales, df_salesdetails, df_users = load_csv()
+                df_address, df_products, df_sales, df_salesdetails, df_users = clean_all(df_address, df_products, df_sales, df_salesdetails, df_users)
                 main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users)
             except ValueError as e:
                 print(e)
         case 2:
             try:
                 df_address, df_products, df_sales, df_salesdetails, df_users = load_json()
+                df_address, df_products, df_sales, df_salesdetails, df_users = clean_all(df_address, df_products, df_sales, df_salesdetails, df_users)
                 main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users)
             except ValueError as e:
                 print(e)
@@ -69,14 +73,12 @@ def main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users):
                 match aggregation_option:
                     case 1:
                         print()
-                        # total_sales_per_user(df_sales, df_salesdetails)
-                        print("Genaro ha comprado mil pesos")
+                        total_sales_per_user(df_sales, df_salesdetails)
                         print()
                         pass
                     case 2:
                         print()
-                        # total_products_by_address(df_sales, df_salesdetails, df_address)
-                        print("La direccion x tiene tantos envios")
+                        total_products_by_address(df_sales, df_salesdetails, df_address)
                         print()
                         pass
 
@@ -90,8 +92,7 @@ def main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users):
                 match filter_option:
                     case 1:
                         print()
-                        # users_with_more_than_five_purchases(df_sales)
-                        print("21 genaros")
+                        total_sales_per_user(df_sales, df_users)
                         print()
                         pass
                     case 2:
