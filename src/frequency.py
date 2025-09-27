@@ -11,7 +11,7 @@ def bestselligproduct(df_salesdetails, df_products):
             df_merged_details_products[['id_producto', 'producto', 'cantidad']]
             .groupby(['id_producto', 'producto'])['cantidad']
             .sum()
-            .reset_index()
+            .reset_index(name='cantidad')
             .sort_values(by='cantidad', ascending=False)
         )
         

@@ -1,17 +1,21 @@
 import pandas as pd
-
 def total_sales_per_user(df_sales, df_users):
+    
     df_total = (
-        df_sales.groupby("id_cliente")["total"]
-        .sum()
+        df_sales.groupby("id_cliente")
+        .agg(
+            total=("total", "sum"),
+            compras=("id", "count")
+        )
         .reset_index()
         .merge(df_users[["id_cliente", "nombre_completo"]], on="id_cliente", how="left")
         .sort_values(by="total", ascending=False)
     )
 
-    print("Total de ventas por usuario:")
+    print("Total de ventas por usuario (con número de compras):")
     print(df_total.head(10))
     return df_total
+
 
 def total_products_by_address(df_sales, df_salesdetails, df_address):
     df_merged = (
