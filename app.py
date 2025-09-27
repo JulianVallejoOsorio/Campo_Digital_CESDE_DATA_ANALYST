@@ -2,6 +2,7 @@
 from src.data_load import (load_csv, load_json)
 from src.frequency import (bestselligproduct, bestbuyer)
 from src.aggregation import (total_sales_per_user, total_products_by_address)
+from src.filteradncount import (users_with_more_than_five_purchases, sales_to_bogota)
 from src.clean_dataframes import clean_all
 
 def main():
@@ -92,12 +93,12 @@ def main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users):
                 match filter_option:
                     case 1:
                         print()
-                        total_sales_per_user(df_sales, df_users)
+                        users_with_more_than_five_purchases(df_sales, df_users)
                         print()
                         pass
                     case 2:
                         print()
-                        # sales_to_bogota(df_sales, df_address)
+                        sales_to_bogota(df_sales, df_address)
                         print("cualesquier 5")
                         print()
                         pass
