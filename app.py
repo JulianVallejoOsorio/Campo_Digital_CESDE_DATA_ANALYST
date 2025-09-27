@@ -1,4 +1,9 @@
+
 from src.data_load import (load_csv, load_json)
+from src.frequency import (bestselligproduct, bestbuyer)
+from src.aggregation import (total_sales_per_user, total_products_by_address)
+from src.filteradncount import (users_with_more_than_five_purchases, sales_to_bogota)
+from src.clean_dataframes import clean_all
 
 def main():
     option = int(input("""Seleccione que tipo de archivos se van a cargar
@@ -8,7 +13,23 @@ Opción: """))
     print()
     print("="*40)
     print()
-
+    match option:
+        case 1:
+            try:
+                df_address, df_products, df_sales, df_salesdetails, df_users = load_csv()
+                df_address, df_products, df_sales, df_salesdetails, df_users = clean_all(df_address, df_products, df_sales, df_salesdetails, df_users)
+                main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users)
+            except ValueError as e:
+                print(e)
+        case 2:
+            try:
+                df_address, df_products, df_sales, df_salesdetails, df_users = load_json()
+                df_address, df_products, df_sales, df_salesdetails, df_users = clean_all(df_address, df_products, df_sales, df_salesdetails, df_users)
+                main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users)
+            except ValueError as e:
+                print(e)
+        case _:
+            print("Opción incorrecta, por favor seleccione una de las opciónes disponibles")
 
 def main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users):
     while True:
@@ -34,15 +55,12 @@ def main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users):
                 match frequency_option:
                     case 1:
                         print()
-                        # most_sold_product(df_salesdetails, df_products)
-                        print("Producto mas vendido es x")
+                        bestselligproduct(df_salesdetails,df_products)
                         print()
-                        pass
-                        
+
                     case 2:
                         print()
-                        # most_frequent_user(df_sales)
-                        print("Genaro ha comprador mucho")
+                        bestbuyer(df_users, df_sales)
                         print()
                         pass
 
@@ -56,14 +74,12 @@ def main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users):
                 match aggregation_option:
                     case 1:
                         print()
-                        # total_sales_per_user(df_sales, df_salesdetails)
-                        print("Genaro ha comprado mil pesos")
+                        total_sales_per_user(df_sales, df_users)
                         print()
                         pass
                     case 2:
                         print()
-                        # total_products_by_address(df_sales, df_salesdetails, df_address)
-                        print("La direccion x tiene tantos envios")
+                        total_products_by_address(df_sales, df_salesdetails, df_address)
                         print()
                         pass
 
@@ -77,14 +93,12 @@ def main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users):
                 match filter_option:
                     case 1:
                         print()
-                        # users_with_more_than_five_purchases(df_sales)
-                        print("21 genaros")
+                        users_with_more_than_five_purchases(df_sales, df_users)
                         print()
                         pass
                     case 2:
                         print()
-                        # sales_to_bogota(df_sales, df_address)
-                        print("cualesquier 5")
+                        sales_to_bogota(df_sales, df_address)
                         print()
                         pass
             case 4:

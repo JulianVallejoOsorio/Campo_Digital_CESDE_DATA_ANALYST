@@ -1,4 +1,4 @@
-﻿id_detalle;venta_id;producto_id;cantidad;subtotal
+﻿id_detalle;id_venta;id_producto;cantidad;subtotal
 1;12;5;3;796,98
 2;21;18;7;3460,1
 3;43;1;5;795,4

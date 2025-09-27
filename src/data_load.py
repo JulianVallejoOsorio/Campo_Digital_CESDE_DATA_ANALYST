@@ -54,18 +54,3 @@ def load_json():
     else:
         raise ValueError("No se cargaron todos los archivos. Verifica los mensajes de error.")
     
-        match option:
-        case 1:
-            try:
-                df_address, df_products, df_sales, df_salesdetails, df_users = load_csv()
-                main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users)
-            except ValueError as e:
-                print(e)
-        case 2:
-            try:
-                df_address, df_products, df_sales, df_salesdetails, df_users = load_json()
-                main_analysis(df_address, df_products, df_sales, df_salesdetails, df_users)
-            except ValueError as e:
-                print(e)
-        case _:
-            print("Opción incorrecta, por favor seleccione una de las opciónes disponibles")
